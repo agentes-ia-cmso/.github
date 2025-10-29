@@ -8,7 +8,7 @@ Nosso objetivo é desenvolver e manter **agentes inteligentes**, **fluxos automa
 ## 🚀 Projetos em Andamento
 
 ### - [RosAnI](https://github.com/agentes-ia-cmso/RosAnI-)
-Agente de suporte **helpdesk da CMFLEX**, treinado para responder dúvidas usando os manuais da empresa.  
+Agente de suporte **helpdesk da CMFLEX**, treinado para fornecer respostar completas e inteligentes a dúvidas usando os manuais da empresa.  
 - Treinado via **Langflow**
 - Integrado ao **n8n** para automação de processamento de interações
 - Utiliza banco **PostgreSQL**
@@ -22,7 +22,7 @@ Fluxo do **n8n** responsável por **ordenar os feedbacks** de interações, segu
 Auxilia no monitoramento de qualidade e melhoria contínua das respostas do agente.
 
 ### - [Revisar Feedback](https://github.com/agentes-ia-cmso/Revisar-Feedback)
-Fluxo de análise que revisa e classifica automaticamente os feedbacks dos usuários, avaliando **sentimento** para entender o gráu de satisfação do usuário.
+Fluxo de análise que revisa e classifica automaticamente os feedbacks dos usuários em Bom, Razoavel ou Ruim, usando um agente de analise de **sentimento** para entender o gráu de satisfação do usuário.
 
 ### - [Estatísticas de Menságens](https://github.com/agentes-ia-cmso/ContadorDeMensagem)
 Fluxo de estatísticas de uso, por meio desse fluxo são enviados dados em tempo real através do telegram para o nosso time.
@@ -48,13 +48,35 @@ Agente Capaz de acessar a API do Contas a Pagar da CM. **ESSE AGENTE NÃO FUNCIO
 
 ---
 
-## 🗂️ Organização dos Projetos
-Os repositórios são classificados por tipo:
-- `RosAni-` → agentes inteligentes de suporte  
-- `Feedback-` → fluxos de coleta e análise de feedback  
-- `Revisar-` → automações de revisão e controle de qualidade  
+## 📊 GitHub Projects
 
-O progresso dos projetos pode ser acompanhado no **[GitHub Projects](https://github.com/orgs/agentes-ia-cmsol/projects)**, onde utilizamos colunas **Backlog**, **Todo**, **In Progress** e **Done** para controle visual.
+A **Agents IA CMSOL** utiliza o **GitHub Projects** como ferramenta central de planejamento e acompanhamento das atividades.  
+Nele, organizamos as Features e tarefas em issues que ajudam a gerenciar o ciclo de vida dos fluxos e agentes.
+
+### 🗂️ Estrutura das Colunas
+
+| Coluna | Descrição |
+|:--|:--|
+| 🕐 **Backlog** | Tarefas planejadas, ainda não priorizadas. |
+| 🧾 **Todo** | Atividades aprovadas e prontas para iniciar. |
+| ⚙️ **In Progress** | Tarefas atualmente em desenvolvimento. |
+| ✅ **Done** | Entregas concluídas e testadas recentemente. |
+| 📁 **Done (old)** | Históricos de entregas anteriores, mantidos para referência. |
+| 🔧 **Features** | Issues principais, todas as tarefas são sub issues das Features, seguindo a lógica de numeração pai.filho (ex: 10.2). |
+
+---
+
+### 🔄 Fluxos de Trabalho
+
+Cada tarefa segue um fluxo padrão:
+1. Criação da **issue** no Backlog como tarefa planejada.  
+2. Movimentação para Todo quando for prioridade.  
+3. Movimentação para In Progress quando estiver sendo feita no momento (cada pessoa só deve ter uma issue em progress por vez).
+  3.1. Enquanto estiver em progresso, os comentários da issue são utilizadas para documentar as atividades, progresso, dificuldades e soluções.
+4. Revisão final antes da migração para **Done**.
+5. Com o tempo as tarefas antigas são movidas para **Done(old)** a fim de manter a coluna **Done** organizada com foco nas tarefas atuais. 
+
+Esse processo garante **rastreabilidade**, **organização** e **visibilidade** sobre todas as tarefas do time do Proejto IA.
 
 ---
 
