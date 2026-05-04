@@ -13,6 +13,11 @@ Agente de suporte **helpdesk da CMFLEX**, treinado para fornecer respostar compl
 - Integrado ao **n8n** para automação de processamento de interações
 - Utiliza banco **PostgreSQL**
 
+### - [Dashboard de feedbacks](https://github.com/agentes-ia-cmso/reestruturacao-banco-de-dados)
+Dashboard em tempo real de estatísticas de feedbacks, acomapnhado de gráficos e página de controle de feedbacks
+- Criado via **Antigravity**
+- Transformado em container docker com imagem hosteada no github
+- Acessa dados em tempo reais do banco de dados **PostgreSQL**
 
 ## ⚙️ Fluxos automatizados
 
@@ -29,6 +34,9 @@ Fluxo de estatísticas de uso, por meio desse fluxo são enviados dados em tempo
 
 ### - [Backups Automáticos](https://github.com/agentes-ia-cmso/backups_automaticos)
 Fluxos de Backups automáticos do n8n e do LangFlow, inspirado na automação do [Canal do Oskar](https://www.youtube.com/watch?v=dNuVuoPD0Jo).
+
+### - [Reestruturação do banco de dados](https://github.com/agentes-ia-cmso/reestruturacao-banco-de-dados)
+Fluxos de manipulação de dados que transformam interações do LangFlow em dados úteis estruturados e organizados, acessados pelo app de dashboard
 
 
 ## 🛑 Projetos Parados
