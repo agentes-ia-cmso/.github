@@ -13,7 +13,7 @@ Agente de suporte **helpdesk da CMFLEX**, treinado para fornecer respostar compl
 - Integrado ao **n8n** para automação de processamento de interações
 - Utiliza banco **PostgreSQL**
 
-### - [Dashboard de feedbacks](https://github.com/agentes-ia-cmso/reestruturacao-banco-de-dados)
+### - [Dashboard de feedbacks](https://github.com/agentes-ia-cmso/app-dashboard)
 Dashboard em tempo real de estatísticas de feedbacks, acomapnhado de gráficos e página de controle de feedbacks
 - Criado via **Antigravity**
 - Transformado em container docker com imagem hosteada no github
@@ -52,7 +52,8 @@ Agente Capaz de acessar a API do Contas a Pagar da CM. **ESSE AGENTE NÃO FUNCIO
 - **Langflow** – criação e treinamento de agentes IA  
 - **n8n** – automação de fluxos e integração de dados  
 - **PostgreSQL** – banco de dados relacional  
-- **GitHub Projects** – gerenciamento de tarefas e versionamento  
+- **GitHub Projects** – gerenciamento de tarefas e versionamento
+- **Antigravity** - IDE de desenvolvimento com IA
 
 ---
 
